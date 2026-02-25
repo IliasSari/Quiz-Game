@@ -4,22 +4,42 @@ class quizgame
 {
     static void Main()
     {
-        Console.WriteLine("Quiz game");
+        Console.WriteLine("--- Welcome to the Quiz Game! ---");
 
-        Console.WriteLine("Question");
-        Console.WriteLine("What is the Capital of Greece?");
+        string[] questions = {
+            "What is the Capital of Greece?",
+            "Which planet is known as the Red Planet?",
+            "How many continents are there on Earth?"
+        };
 
-        Console.Write("Answer");
-        string answer = Console.ReadLine();
+        string[] answers = {
+            "athens",
+            "mars",
+            "7"
+        };
 
-        if (answer.ToLower() == "athens")
+        int score = 0; 
+
+        for (int i = 0; i < questions.Length; i++)
         {
-            Console.WriteLine("Correct!");
+            Console.WriteLine("\nQuestion " + (i + 1));
+            Console.WriteLine(questions[i]);
+
+            Console.Write("Your Answer: ");
+            string userAnswer = Console.ReadLine();
+
+            if (userAnswer.ToLower().Trim() == answers[i])
+            {
+                Console.WriteLine("Correct!");
+                score++;
+            }
+            else
+            {
+                Console.WriteLine("Wrong! The correct answer was: " + answers[i]);
+            }
         }
-        else
-        {
-            Console.WriteLine("Wrong! The correct answer is Athens!");
-        }
+
+        Console.WriteLine("\n--- Game Over! ---");
+        Console.WriteLine("Your total score is: " + score + "/" + questions.Length);
     }
 }
-
