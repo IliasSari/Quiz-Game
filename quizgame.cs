@@ -29,14 +29,17 @@ class quizgame
             string userAnswer = Console.ReadLine();
 
             if (userAnswer.ToLower().Trim() == answers[i])
-            
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Correct!");
+                Console.ResetColor();
                 score++;
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Wrong! The correct answer was: " + answers[i]);
+                Console.ResetColor();
             }
         
         }
