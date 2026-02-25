@@ -29,6 +29,7 @@ class quizgame
             string userAnswer = Console.ReadLine();
 
             if (userAnswer.ToLower().Trim() == answers[i])
+            
             {
                 Console.WriteLine("Correct!");
                 score++;
@@ -37,6 +38,19 @@ class quizgame
             {
                 Console.WriteLine("Wrong! The correct answer was: " + answers[i]);
             }
+        
+        }
+        if (score == questions.Length)
+        {
+            Console.WriteLine("Perfect! You are a genius!");
+        }
+        else if (score >= questions.Length/2)
+        {
+            Console.WriteLine("Not bad. You know your stuff.");
+        }
+        else
+        {
+            Console.WriteLine("Better luck next time. Keep studying.");
         }
 
         Console.WriteLine("\n--- Game Over! ---");
