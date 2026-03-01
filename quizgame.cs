@@ -44,12 +44,14 @@ class Program
         };
 
         int score = 0;
+        int lives = 3; // Added variables for lives
 
         Console.WriteLine("🎯 Welcome to the Quiz Game!");
         Console.WriteLine("-----------------------------");
 
         for (int i = 0; i < questions.Count; i++)
         {
+            Console.WriteLine($"\n ❤️ Lives: {lives} | Score: {score}");
             Question q = questions[i];
 
             Console.WriteLine($"\nQuestion {i + 1}: {q.Text}");
@@ -72,6 +74,7 @@ class Program
             }
             else
             {
+                lives--; 
                 Console.WriteLine($"❌ Wrong! The correct answer is: {q.Options[q.CorrectOption]}");
             }
         }
