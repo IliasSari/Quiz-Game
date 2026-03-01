@@ -76,6 +76,11 @@ class Program
             {
                 lives--; 
                 Console.WriteLine($"❌ Wrong! The correct answer is: {q.Options[q.CorrectOption]}");
+                if (lives <=0)
+                {
+                    Console.WriteLine("\n 💔 GAME OVER! You ran out of lives.");
+                    break;
+                }
             }
         }
 
