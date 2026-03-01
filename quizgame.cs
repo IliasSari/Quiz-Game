@@ -44,10 +44,22 @@ class Program
         };
 
         int score = 0;
-        int lives = 3; // Added variables for lives
+        int lives = 2; // Added variables for lives
 
         Console.WriteLine("🎯 Welcome to the Quiz Game!");
         Console.WriteLine("-----------------------------");
+
+        Random rng = new Random();
+        int n = questions.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            Question value = questions[k];
+            questions[k] = questions[n];
+            questions [n] = value;
+        }
+        Console.WriteLine("🎲 Questions shuffled!");
 
         for (int i = 0; i < questions.Count; i++)
         {
