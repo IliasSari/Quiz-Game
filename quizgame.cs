@@ -1,62 +1,86 @@
 using System;
+using System.Collections.Generic;
 
-class quizgame
+class Question
+{
+    public string Text;
+    public string[] Options;
+    public int CorrectOption; // index (0-3)
+
+    public Question(string text, string[] options, int correctOption)
+    {
+        Text = text;
+        Options = options;
+        CorrectOption = correctOption;
+    }
+}
+
+class Program
 {
     static void Main()
     {
-        Console.WriteLine("--- Welcome to the Quiz Game! ---");
-
-        string[] questions = {
-            "What is the Capital of Greece?",
-            "Which planet is known as the Red Planet?",
-            "How many continents are there on Earth?"
-        };
-
-        string[] answers = {
-            "athens",
-            "mars",
-            "7"
-        };
-
-        int score = 0; 
-
-        for (int i = 0; i < questions.Length; i++)
+        List<Question> questions = new List<Question>()
         {
-            Console.WriteLine("\nQuestion " + (i + 1));
-            Console.WriteLine(questions[i]);
+            new Question(
+                "Which is the Capital of Greece?",
+                new string[] { "Thessaloniki", "Patra", "Athens", "Larissa" },
+                2
+            ),
+            new Question(
+                "How many continets are there on Earth?",
+                new string[] { "5", "6", "7", "8" },
+                2
+            ),
+            new Question(
+                "Which is the biggest island of Greece?",
+                new string[] { "Rhodes", "Evoia", "Crete", "Lesbos" },
+                2
+            ),
+            new Question(
+                "Which is the result of 5 * 6",
+                new string[] { "11", "30", "56", "25" },
+                1
+            )
+        };
 
-            Console.Write("Your Answer: ");
-            string userAnswer = Console.ReadLine();
+        int score = 0;
 
-            if (userAnswer.ToLower().Trim() == answers[i])
+        Console.WriteLine("🎯 Welcome to the Quiz Game!");
+        Console.WriteLine("-----------------------------");
+
+        for (int i = 0; i < questions.Count; i++)
+        {
+            Question q = questions[i];
+
+            Console.WriteLine($"\nQuestion {i + 1}: {q.Text}");
+
+            for (int j = 0; j < q.Options.Length; j++)
             {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Correct!");
-                Console.ResetColor();
+                Console.WriteLine($"{j + 1}. {q.Options[j]}");
+            }
+
+            Console.Write("Your answer (1-4): ");
+            string input = Console.ReadLine()?.Trim();
+
+            int userChoice;
+            bool valid = int.TryParse(input, out userChoice);
+
+            if (valid && userChoice - 1 == q.CorrectOption)
+            {
+                Console.WriteLine("✅ Correct");
                 score++;
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Wrong! The correct answer was: " + answers[i]);
-                Console.ResetColor();
+                Console.WriteLine($"❌ Wrong! The correct answer is: {q.Options[q.CorrectOption]}");
             }
-        
-        }
-        if (score == questions.Length)
-        {
-            Console.WriteLine("Perfect! You are a genius!");
-        }
-        else if (score >= questions.Length/2)
-        {
-            Console.WriteLine("Not bad. You know your stuff.");
-        }
-        else
-        {
-            Console.WriteLine("Better luck next time. Keep studying.");
         }
 
-        Console.WriteLine("\n--- Game Over! ---");
-        Console.WriteLine("Your total score is: " + score + "/" + questions.Length);
+        Console.WriteLine("\n=======================");
+        Console.WriteLine($"🏁 End of game!");
+        Console.WriteLine($"🎉 Score: {score}/{questions.Count}");
+        Console.WriteLine("=======================");
+
+        Console.ReadLine();
     }
 }
