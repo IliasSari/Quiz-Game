@@ -40,6 +40,11 @@ class Program
                 "Which is the result of 5 * 6",
                 new string[] { "11", "30", "56", "25" },
                 1
+            ),
+            new Question(
+                "Which is the biggest country on Earth?",
+                new string[] { "Russia", "Australia", "China", "India"},
+                0
             )
         };
 
