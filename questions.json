@@ -1,0 +1,27 @@
+[
+    {
+        "Text": "Which is the capital of Greece?",
+        "Options": ["Thessaloniki", "Patra", "Athens", "Larissa"],
+        "CorrectOption": 2
+    },
+    {
+        "Text": "How many continents are there on Earth?",
+        "Options": ["5", "6", "7", "8"],
+        "CorrectOption": 2
+    },
+    {
+        "Text": "Which is the biggest island of Greece?",
+        "Options": ["Rhodes", "Evoia", "Crete", "Lesbos"],
+        "CorrectOption": 2
+    },
+    {
+        "Text": "Which is the result of 5 * 6",
+        "Options":["11", "30", "56", "25"],
+        "CorrectOption": 1
+    },
+    {
+        "Text": "Which is the biggest country on Earth?",
+        "Options":["Russia", "Australia", "China", "India"],
+        "CorrectOption": 0
+    }
+]
