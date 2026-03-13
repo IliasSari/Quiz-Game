@@ -23,5 +23,40 @@
         "Text": "Which is the biggest country on Earth?",
         "Options":["Russia", "Australia", "China", "India"],
         "CorrectOption": 0
+    },
+    {
+    "Text": "Which animal is known as the 'King of the Jungle'?",
+    "Options": ["Tiger", "Elephant", "Lion", "Giraffe"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "How many days are there in a normal year?",
+    "Options": ["300", "365", "366", "400"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What color do you get if you mix Red and White?",
+    "Options": ["Blue", "Pink", "Green", "Purple"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What is the name of the star that shines during the day?",
+    "Options": ["Moon", "Sun", "Mars", "Venus"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "How many months are there in a year?",
+    "Options": ["10", "11", "12", "13"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "Which animal barks?",
+    "Options": ["Cat", "Dog", "Bird", "Cow"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What do we use to see things?",
+    "Options": ["Ears", "Nose", "Eyes", "Mouth"],
+    "CorrectOption": 2
     }
 ]
