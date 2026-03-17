@@ -93,7 +93,7 @@ namespace QuizGame
             Console.WriteLine($"🏁 Game over! Score: {score}/{questions.Count}");
             Console.WriteLine("=======================");
             
-            HandleHighScore(score);
+            HandleHighScore(score, questions.Count);
             
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
@@ -106,7 +106,7 @@ namespace QuizGame
             Console.Clear();
         }
 
-        static void HandleHighScore(int score)
+        static void HandleHighScore(int score, int totalQuestions)
         {
             string highscoreFile = "highscore.txt";
             int topScore = 0;
@@ -126,6 +126,30 @@ namespace QuizGame
                 Console.ResetColor();
                 File.WriteAllText(highscoreFile, score.ToString());
             }
+            Console.WriteLine("----------------------------");
+            
+            if (score == totalQuestions)
+            {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine("👑 PERFECT SCORE! You are a Quiz Master!");
+            }
+            else if (score >= totalQuestions * 0.75)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("🌟 Excellent job! You really know your stuff!");
+            }
+            else if (score >= totalQuestions * 0.5)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("👍 Good effort! You passed!");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine("😅 Better luck next time! Keep practicing!");
+            }
+                Console.ResetColor();
+                Console.WriteLine("-----------------------------");
         }
     }
 }
