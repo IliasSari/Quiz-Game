@@ -1,0 +1,18 @@
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.csproj.AssemblyReference.cache
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.AssemblyInfoInputs.cache
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.AssemblyInfo.cs
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.csproj.CoreCompileInputs.cache
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.sourcelink.json
+/home/ilias-sari/Desktop/C#/quiz game/bin/Debug/net10.0/quiz game
+/home/ilias-sari/Desktop/C#/quiz game/bin/Debug/net10.0/quiz game.deps.json
+/home/ilias-sari/Desktop/C#/quiz game/bin/Debug/net10.0/quiz game.runtimeconfig.json
+/home/ilias-sari/Desktop/C#/quiz game/bin/Debug/net10.0/quiz game.dll
+/home/ilias-sari/Desktop/C#/quiz game/bin/Debug/net10.0/quiz game.pdb
+/home/ilias-sari/Desktop/C#/quiz game/bin/Debug/net10.0/Newtonsoft.Json.dll
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.csproj.Up2Date
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.dll
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/refint/quiz game.dll
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.pdb
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/quiz game.genruntimeconfig.cache
+/home/ilias-sari/Desktop/C#/quiz game/obj/Debug/net10.0/ref/quiz game.dll
