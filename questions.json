@@ -1,0 +1,87 @@
+[
+    {
+        "Text": "Which is the capital of Greece?",
+        "Options": ["Thessaloniki", "Patra", "Athens", "Larissa"],
+        "CorrectOption": 2
+    },
+    {
+        "Text": "How many continents are there on Earth?",
+        "Options": ["5", "6", "7", "8"],
+        "CorrectOption": 2
+    },
+    {
+        "Text": "Which is the biggest island of Greece?",
+        "Options": ["Rhodes", "Evoia", "Crete", "Lesbos"],
+        "CorrectOption": 2
+    },
+    {
+        "Text": "Which is the result of 5 * 6",
+        "Options":["11", "30", "56", "25"],
+        "CorrectOption": 1
+    },
+    {
+        "Text": "Which is the biggest country on Earth?",
+        "Options":["Russia", "Australia", "China", "India"],
+        "CorrectOption": 0
+    },
+    {
+    "Text": "Which animal is known as the 'King of the Jungle'?",
+    "Options": ["Tiger", "Elephant", "Lion", "Giraffe"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "How many days are there in a normal year?",
+    "Options": ["300", "365", "366", "400"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What color do you get if you mix Red and White?",
+    "Options": ["Blue", "Pink", "Green", "Purple"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What is the name of the star that shines during the day?",
+    "Options": ["Moon", "Sun", "Mars", "Venus"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "How many months are there in a year?",
+    "Options": ["10", "11", "12", "13"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "Which animal barks?",
+    "Options": ["Cat", "Dog", "Bird", "Cow"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What do we use to see things?",
+    "Options": ["Ears", "Nose", "Eyes", "Mouth"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "Which planet is known as the Red Planet?",
+    "Options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "CorrectOption": 1
+    },
+    {
+    "Text": "What is the hardest natural substance on Earth?",
+    "Options": ["Gold", "Iron", "Diamond", "Wood"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "Which ocean is the largest in the world?",
+    "Options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "CorrectOption": 3
+    },
+    {
+    "Text": "How many colors are there in a rainbow?",
+    "Options": ["5", "6", "7", "8"],
+    "CorrectOption": 2
+    },
+    {
+    "Text": "What gas do humans need to breathe to live?",
+    "Options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "CorrectOption": 0
+    }
+]
