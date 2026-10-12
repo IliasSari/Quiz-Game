@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bif5OEfj/+s=",
+  "dgSpecHash": "XMMzCer80HM=",
   "success": true,
-  "projectFilePath": "/home/ilias-sari/Desktop/C#/quiz game/quiz game.csproj",
+  "projectFilePath": "/home/ilias/Desktop/c#/Quiz-Game-main/quiz game.csproj",
   "expectedPackageFiles": [
-    "/home/ilias-sari/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
+    "/home/ilias/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
   ],
   "logs": []
 }

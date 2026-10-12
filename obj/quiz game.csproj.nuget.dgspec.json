@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ilias-sari/Desktop/C#/quiz game/quiz game.csproj": {}
+    "/home/ilias/Desktop/c#/Quiz-Game-main/quiz game.csproj": {}
   },
   "projects": {
-    "/home/ilias-sari/Desktop/C#/quiz game/quiz game.csproj": {
+    "/home/ilias/Desktop/c#/Quiz-Game-main/quiz game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilias-sari/Desktop/C#/quiz game/quiz game.csproj",
+        "projectUniqueName": "/home/ilias/Desktop/c#/Quiz-Game-main/quiz game.csproj",
         "projectName": "quiz game",
-        "projectPath": "/home/ilias-sari/Desktop/C#/quiz game/quiz game.csproj",
-        "packagesPath": "/home/ilias-sari/.nuget/packages/",
-        "outputPath": "/home/ilias-sari/Desktop/C#/quiz game/obj/",
+        "projectPath": "/home/ilias/Desktop/c#/Quiz-Game-main/quiz game.csproj",
+        "packagesPath": "/home/ilias/.nuget/packages/",
+        "outputPath": "/home/ilias/Desktop/c#/Quiz-Game-main/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ilias-sari/.nuget/NuGet/NuGet.Config"
+          "/home/ilias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
